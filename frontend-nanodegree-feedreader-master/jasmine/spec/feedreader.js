@@ -32,10 +32,10 @@ $(function() {
          * and that the URL is not empty.
          */
 		 
-		  it('all have URLs', function() {
-            for(var x = 0; x < allFeeds.length; x++) {
-                expect(allFeeds[x].url).toBeDefined();
-                expect(allFeeds[x].url).not.toBe('');
+		  it('All Have URLs', function() {
+            for(var y = 0; y < allFeeds.length; y++) {
+                expect(allFeeds[y].url).toBeDefined();
+                expect(allFeeds[y].url).not.toBe('');
             }
          });
 
@@ -46,9 +46,9 @@ $(function() {
          */
 		 
 		  it('all have names', function() {
-            for(var x = 0; x < allFeeds.length; x++) {
-                expect(allFeeds[x].name).toBeDefined();
-                expect(allFeeds[x].name).not.toBe('');
+            for(var y = 0; y < allFeeds.length; y++) {
+                expect(allFeeds[y].name).toBeDefined();
+                expect(allFeeds[y].name).not.toBe('');
             }
          });
     });
@@ -68,7 +68,7 @@ $(function() {
           * clicked and does it hide when clicked again.
           */
 
-				describe('The menu', function() {
+				describe('The Menu', function() {
 					var icon;
 
 					beforeEach(function() {
