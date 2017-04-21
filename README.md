@@ -1,4 +1,4 @@
-# Project 6: Feed Reader
+# Project 6: Feedreader-master
 For Udacity Front-End Developer Nanodegree
 
 # About
